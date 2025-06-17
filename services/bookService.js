@@ -1,4 +1,4 @@
-// comment 003
+
 const Book = require('../models/Book');
 
 const validateBookData = (bookData) => {
@@ -7,8 +7,7 @@ const validateBookData = (bookData) => {
     }
 };
 
-// comment 001
-// comment 002
+
 exports.createBook = async (bookData) => {
     validateBookData(bookData);
     const book = new Book(bookData);
