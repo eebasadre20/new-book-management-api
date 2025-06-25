@@ -13,4 +13,8 @@ export class Reader {
 
   @Column({ nullable: true })
   age: number;
+
+  @Column({ nullable: true })
+  currentBookId: number; // New column to store the ID of the book currently being read
+
 }
